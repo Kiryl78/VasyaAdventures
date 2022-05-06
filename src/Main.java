@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("== WELCOME to unfortunate adventures of Hero Vasya ! ==");
-        System.out.println("=========================================================");
+        System.out.println("=======================================================");
 
         //Hero buffs choice aka classes
         System.out.println(" Please select the buff: 1:Knight +2 to STR or 2:Rogue +2 to DEX ");
