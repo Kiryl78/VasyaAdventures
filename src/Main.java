@@ -36,12 +36,12 @@ public class Main {
                     // Skeleton or Goblin ?
                     Random random = new Random();
                     if (random.nextBoolean()) {
-                        Skeleton enemy = new Skeleton(30, 5, 3, 20, (int) Math.random() * 30);
+                        Skeleton enemy = new Skeleton(30, 5, 3, 20, (int) (Math.random() * 30));
                         System.out.println("Skeleton appeared ! FIGHT !!!");
                         enemy.battleCry();
                         thatsAllFolks = fight(vasya, enemy);
                     } else {
-                        Goblin enemy = new Goblin(20, 3, 5, 10, (int) Math.random() * 20);
+                        Goblin enemy = new Goblin(20, 3, 5, 10, (int) (Math.random() * 20));
                         System.out.println("Goblin appeared ! FIGHT !!!");
                         enemy.battleCry();
                         thatsAllFolks = fight(vasya, enemy);
